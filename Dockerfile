@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:jammy
 RUN apt-get update -y
 RUN apt-get install wget unzip -y
 WORKDIR /opt/
